@@ -9,5 +9,6 @@ def get_fact() -> str:
         return "Не удалось получить факт. Пожалуйста, повторите попытку позже."
 def speak(fact: str)-> None:
     engine = pyttsx3.init()
+    engine.setProperty("voice", voices[1].id)
     engine.say(fact)
     engine.runAndWait()
