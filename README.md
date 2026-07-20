@@ -19,4 +19,4 @@ pip install pyttsx3
 ```
 pip install pyTelegramBotAPI
 ```
-###В файл config.py добавляем токен из официального бота BotFather
+### В файл config.py добавляем токен из официального бота BotFather
